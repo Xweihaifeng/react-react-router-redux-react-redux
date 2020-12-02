@@ -1,0 +1,30 @@
+@charset "utf-8";
+::-webkit-scrollbar{width:0!important;display:none;}
+*{font-family:'微软雅黑';box-sizing:border-box;user-select:none;padding:0;margin:0;}
+html,body{position:fixed;font-size:12px;margin:0;padding:0;width:100%;height:100%;}
+html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-size-adjust:100%;-ms-overflow-style:none;overflow:-moz-scrollbars-none;}
+html::-webkit-scrollbar{width:0px}
+/*body{background-image:url(/img/pub_bg.png);background-size:100% 100%;background-repeat:no-repeat;background-attachment:fixed;background-color:#004254;}*/
+body{background-size:100% 100%;background-repeat:no-repeat;background-attachment:fixed;background-color:#004254;}
+h1,h2,h3,h4,h5,h6,p,pre,dd{margin:0;font-weight:400;}
+pre{font-family:none;white-space:unset;margin:0;font-size:1rem!important;}
+a{display:inline-block;text-decoration:none;}
+ul{padding:0;margin:0;}
+var{font-style:unset;}
+span,mark,a{display:inline-block;}
+mark{background-color:unset;color:#4466F4;}
+ul,li{list-style:none;}
+progress{width:168px;height:16px;background:rgba(0,0,0,.2);}
+progress::-webkit-progress-bar{background-color:transparent;}
+progress::-webkit-progress-value{background-color:rgba(0,64,255,0.7);}
+select{min-width:120px;height:30px;border:1px solid #00466B;border-radius:3px;outline:none;text-indent:5px;cursor:pointer;background:transparent;color:#afafaf;}
+select option{padding:4px 0;height:35px;line-height:35px;}
+input{outline:none;}
+input.inputTexts{min-width:120px;height:30px;border:1px solid #00466B;border-radius:3px;outline:none;text-indent:5px;background:transparent;color:#afafaf;}
+input::-webkit-input-placeholder{color:#3295E2;}
+input::-moz-placeholder{color:#3295E2;}
+input::-ms-input-placeholder{color:#3295E2;}
+button{outline:none;}
+
+/* 全局公共样式 */
+#boxroot{margin:0;padding:0;width:100%;height:100%;}
